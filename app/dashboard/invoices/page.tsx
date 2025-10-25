@@ -1,10 +1,8 @@
 import React, { ReactNode } from "react";
 
-interface PageProps {
-    children: ReactNode;
-}
 
-const Page: React.FC<PageProps> = ({ children }) => {
+
+export default function Page(){
     return (
         <div>
             <h1>Invoices</h1>
@@ -12,6 +10,5 @@ const Page: React.FC<PageProps> = ({ children }) => {
     );
 };
 
-export default Page;
 
 
