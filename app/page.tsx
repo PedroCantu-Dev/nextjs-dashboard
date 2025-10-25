@@ -14,7 +14,9 @@ export default function Page() {
 
 {/* <div className={styles.shape}></div> */}
 
-<p className={`${lusitana.className}`}>  <AcmeLogo /> </p>
+<p className={`${lusitana.className}`}>
+  </p>
+  <AcmeLogo />
 
 
 
